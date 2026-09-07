@@ -117,6 +117,10 @@ function App() {
 
   return (
     <div className="game">
+      <header className="game-title-header">
+        <h1 className="game-title">Population Royale</h1>
+      </header>
+
       <div className="panel panel-left">
         <div className="panel-content">
           <div className="flag-wrapper">

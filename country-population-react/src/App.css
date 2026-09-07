@@ -25,6 +25,29 @@ body {
   font-family: "Segoe UI", sans-serif;
   color: #fff;
   overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.game-title-header {
+  position: absolute;
+  top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  pointer-events: none;
+}
+
+.game-title {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #fff 0%, #f5e050 50%, #facc15 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.7);
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.6));
 }
 
 .panel {
