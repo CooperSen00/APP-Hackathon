@@ -74,7 +74,11 @@ function App() {
       if (!correct) {
         const audio = new Audio("/bithuh-vine-boom-392646.mp3");
         audio.play().catch((e) => console.error("Error playing audio:", e));
+      } else {
+        const audio = new Audio("/freesound_community-success-1-6297.mp3");
+        audio.play().catch((e) => console.error("Error playing audio:", e));
       }
+
 
       setLastGuessCorrect(correct);
       setStatus("revealed");
