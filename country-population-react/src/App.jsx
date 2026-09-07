@@ -126,6 +126,7 @@ function App() {
           <p className="has-text">has</p>
           <p className="population-value">{left.value.toLocaleString()}</p>
           <p className="sub-text">population</p>
+          <p>Rank: {left.rank} out of 217</p>
         </div>
         <div className="score-corner score-left">High Score: {highScore}</div>
       </div>
